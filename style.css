@@ -56,7 +56,6 @@ body {
     justify-items: center;
     align-items: center;
     grid-template: 100% / 100%;
-    border: 1px solid yellow;
     color: white;
     height: 100vh;
     margin: 0;
