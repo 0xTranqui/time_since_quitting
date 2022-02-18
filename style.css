@@ -20,7 +20,6 @@
     --order-content-second: 13;
     --title-font-size: 2.5rem;
     --other-font-size: 2.5rem;
-
 }
 
 @media (max-width: 850px) {
@@ -40,9 +39,8 @@
     --order-content-hour: 7;
     --order-content-minute: 5;
     --order-content-second: 3;
-    --title-font-size: 2.5rem;
+    --title-font-size: 2rem;
     --other-font-size: 2rem;
-
     }
 }
 
@@ -78,7 +76,7 @@ a {
 #container {
     display: grid;
     grid-template: var(--container-structure);
-    height: 80%;
+    height: 90%;
     width: 90%;
 }
 
@@ -87,7 +85,6 @@ a {
     order: var(--order-title);
     display: flex;
     font-size: var(--title-font-size);
-    flex-wrap: nowrap;
     align-items: center;
     text-align: center;
     justify-content: center;
